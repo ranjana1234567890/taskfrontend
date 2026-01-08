@@ -81,7 +81,7 @@ const MemberDashboard = () => {
       toast.success('Task status updated!');
       fetchData();
     } catch (error) {
-      toast.error('Failed to update status');
+      toast.error('You can update your task only');
     }
   };
 
